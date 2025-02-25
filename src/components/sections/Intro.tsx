@@ -3,6 +3,7 @@ import styles from "../../components/bubble.module.css";
 import { PlaceholdersAndVanishInput } from "../ui/placeholders-and-vanish-input";
 import { motion } from "framer-motion";
 import { WavyBackground } from "../ui/wavy-background";
+import logo from "../../assets/logo.png"
 function Intro() {
   const color = "#ff1493"; // Using hot pink colors for both themes
 
@@ -35,7 +36,7 @@ function Intro() {
                  </span>
                 <span className="w-7/10 mt-7 md:w-3/10">
                     <img
-                        src="src/assets/logo.png"
+                        src={logo}
                         alt="babble-logo"
                     />
                 </span>
