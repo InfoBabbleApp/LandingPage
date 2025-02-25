@@ -5,13 +5,13 @@ function Contact() {
   return (
     <>
       <div className="mb-10 text-6xl tracking-tight font-extrabold text-gray-900 dark:text-black text-center">Where To Find Us</div>
-      <div className="flex flex-col justify-center items-center mb-40 md:flex-row">
+      <div className="flex flex-col justify-center items-center mb-40 lg:flex-row">
         <div>
           <PinContainer
             title="/instagram/infoBabble"
             href="https://www.instagram.com/infobabble/"
           >
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-black">
                 Instagram
               </h3>
@@ -31,7 +31,7 @@ function Contact() {
             title="/linkedin/infoBabble"
             href="https://www.linkedin.com/company/infobabble/"
           >
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-black">
                 LinkedIn
               </h3>
@@ -51,7 +51,7 @@ function Contact() {
             title="info.babbleapp@gmail.com"
             href="mailto:info.babbleapp@gmail.com"
           >
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-black">
                 Email
               </h3>
