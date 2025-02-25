@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Importi
 function Contact() {
   return (
     <>
-      <div className="mb-10 text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Where To Find Us</div>
+      <div className="mb-10 text-6xl tracking-tight font-extrabold text-gray-900 dark:text-black text-center">Where To Find Us</div>
       <div className="flex flex-col justify-center items-center mb-40 md:flex-row">
         <div>
           <PinContainer
