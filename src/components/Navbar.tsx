@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "react-feather"; // You can use any icons, or install react-feather for these
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   const [isHidden, setIsHidden] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           {/* Animated Logo */}
           <motion.img
-            src="src/assets/logo.png"
+            src={logo}
             alt="Babble Logo"
             className="w-30 h-10 object-contain"
             initial={{ scale: 0.8 }}
