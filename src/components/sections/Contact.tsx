@@ -11,7 +11,7 @@ function Contact() {
         {/* Instagram Card */}
         <PixelCard variant="pink">
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <FaInstagram className="text-white text-5xl mb-4" />
+            <FaInstagram className="text-[#E4405F] text-5xl mb-4" /> {/* Instagram's official pink-red color */}
             <h3 className="text-lg font-bold text-gray-900">Instagram</h3>
             <p className="text-sm text-gray-700">
               Stay updated and connect with us on Instagram.
@@ -30,7 +30,7 @@ function Contact() {
         {/* LinkedIn Card */}
         <PixelCard variant="pink">
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <FaLinkedin className="text-white text-5xl mb-4" />
+            <FaLinkedin className="text-[#0A66C2] text-5xl mb-4" /> {/* LinkedIn's official blue color */}
             <h3 className="text-lg font-bold text-gray-900">LinkedIn</h3>
             <p className="text-sm text-gray-700">
               Let’s connect and engage on LinkedIn.
@@ -49,7 +49,7 @@ function Contact() {
         {/* Email Card */}
         <PixelCard variant="pink">
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <FaEnvelope className="text-white text-5xl mb-4" />
+            <FaEnvelope className="text-[#D44638] text-5xl mb-4" /> {/* Gmail's red color */}
             <h3 className="text-lg font-bold text-gray-900">Email</h3>
             <p className="text-sm text-gray-700">
               Feel free to reach out to us via email.
