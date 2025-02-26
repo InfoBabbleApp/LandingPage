@@ -162,8 +162,8 @@ const Feature = () => {
 
   return (
     <div className="space-y-24">
-      <div className="text-4xl font-bold text-center mt-5 md:text-6xl">Key Features</div>
-      <div className="flex justify-center text-3l text-center -mt-17 md:text-2xl">Experience The Key Features Of Our App</div>
+      <div className="mt-2 text-5xl text-center font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Key Features</div>
+      <div className="flex justify-center text-3l text-center -mt-17 md:text-2xl font-medium text-pretty text-gray-600 sm:text-xl/8">Experience The Key Features Of Our App</div>
       {features.map((feature, index) => (
         <FeatureSection
           key={index}

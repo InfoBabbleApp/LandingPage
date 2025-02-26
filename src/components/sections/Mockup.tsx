@@ -64,9 +64,9 @@ const DeviceLayout = () => {
   // Dynamic positioning based on screen size
   const getSideDevicePosition = (side: 'left' | 'right') => {
     const offset = {
-      small: side === 'left' ? '-40px' : '40px',
+      small: side === 'left' ? '-30px' : '43px',
       medium: side === 'left' ? '-60px' : '60px',
-      large: side === 'left' ? '-80px' : '80px'
+      large: side === 'left' ? '-70px' : '70px'
     }[screenSize];
     
     return offset;
