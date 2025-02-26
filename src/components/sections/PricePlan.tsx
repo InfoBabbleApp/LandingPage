@@ -96,7 +96,7 @@ export default function PricePlan() {
           >
             <h3
               id={tier.id}
-              className={classNames(tier.featured ? 'text-indigo-400' : 'text-indigo-600', 'text-base/7 font-semibold')}
+              className={classNames(tier.featured ? 'text-pink-500' : 'text-pink-600', 'text-base/7 font-semibold')}
             >
               {tier.name}
             </h3>
@@ -125,7 +125,7 @@ export default function PricePlan() {
                 <li key={feature} className="flex gap-x-3">
                   <CheckIcon
                     aria-hidden="true"
-                    className={classNames(tier.featured ? 'text-indigo-400' : 'text-indigo-600', 'h-6 w-5 flex-none')}
+                    className={classNames(tier.featured ? 'text-pink-500' : 'text-pink-600', 'h-6 w-5 flex-none')}
                   />
                   {feature}
                 </li>
@@ -136,8 +136,8 @@ export default function PricePlan() {
               aria-describedby={tier.id}
               className={classNames(
                 tier.featured
-                  ? 'bg-indigo-500 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-indigo-500'
-                  : 'text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-indigo-600',
+                  ? 'bg-pink-500 text-white shadow-xs hover:bg-pink-600 focus-visible:outline-pink-500'
+                  : 'text-pink-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-indigo-600',
                 'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
               )}
             >
