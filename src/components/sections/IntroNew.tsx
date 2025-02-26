@@ -80,7 +80,7 @@ function Intro() {
                 </button>
               </div>
             </div>
-            <div className="flex justify-center items-center w-full mt-10 pb-10 md:-mt-5 z-10">
+            <div className="flex justify-center items-center w-full mt-15 pb-10 md:-mt-10 z-10">
               <img className="w-6/10" src={koala} alt="koala" />
             </div>
           </div>
