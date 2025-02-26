@@ -20,7 +20,7 @@ function Intro() {
   };
 
   return (
-    <WavyBackground className="min-h-screen pb-30 md:mb-0">
+    <WavyBackground className="min-h-screen mb-0 md:mb-0">
       <div
         style={{
           position: "absolute",
