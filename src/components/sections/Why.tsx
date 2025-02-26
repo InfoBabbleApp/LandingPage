@@ -3,7 +3,7 @@ import { FiCheckCircle, FiMic, FiUsers, FiSmartphone } from "react-icons/fi"; //
 
 const WhyUs = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 bg-blue-100">
       <p className="mt-10 mb-10 text-3xl text-center font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Why Choose Babble</p>
       <div className="grid gap-4 grid-cols-2 lg:grid-cols-4 mb-8">
         <Card

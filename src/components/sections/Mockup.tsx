@@ -11,7 +11,7 @@ const ReactLenis = ReactLenisType as any;
 
 export const Mockup = () => {
   return (
-    <div className="min-h-screen w-full bg-white overflow-hidden">
+    <div className="min-h-screen w-full bg-pink-100 overflow-hidden">
       <ReactLenis root options={{ lerp: 0.05 }}>
         <Hero />
       </ReactLenis>

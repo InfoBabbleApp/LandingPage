@@ -4,8 +4,8 @@ import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Importi
 function Contact() {
   return (
     <>
-      <div className="mt-2 text-5xl text-center font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Where To Find Us</div>
-      <div className="flex flex-col justify-center items-center mb-40 lg:flex-row">
+      <div className="pt-5 text-5xl bg-pink-200 text-center font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Where To Find Us</div>
+      <div className="flex flex-col bg-pink-200 justify-center items-center pb-40 lg:flex-row">
         <div>
           <PinContainer
             title="/instagram/infoBabble"

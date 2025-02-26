@@ -32,7 +32,7 @@ const Video: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-white py-20 dark:bg-dark lg:py-[120px]">
+    <section className="bg-white-200 py-20 lg:py-[120px]">
       <div className="mx-auto max-w-4xl text-center">
         <p className="mt-2 mb-6 text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
           Why We’re Here
