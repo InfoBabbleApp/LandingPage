@@ -3,9 +3,8 @@ import styles from "../../components/bubble.module.css";
 import { PlaceholdersAndVanishInput } from "../ui/placeholders-and-vanish-input";
 import { motion } from "framer-motion";
 import { WavyBackground } from "../ui/wavy-background";
-import logo from "../../assets/logo.png";
 import Ballpit from "@/Backgrounds/Ballpit/Ballpit";
-import koala from "../../assets/Koala.png";
+import koala from "../../assets/intro.png";
 
 function Intro() {
   const color = "#ff1493"; // Using hot pink colors for both themes
@@ -37,7 +36,8 @@ function Intro() {
           wallBounce={0.95}
           followCursor={false}
           maxSize={0.9}
-          colors={["#a032a8", "#ffbfea", "#ff1fb5"]}
+          colors={["#fc2bcf", "#ffbfea", "#ff1fb5"]}
+          lightIntensity={20}
         />
       </div>
       <motion.div
@@ -50,14 +50,14 @@ function Intro() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className="flex justify-center min-h-screen items-center w-full mt-30 md:mt-0">
+        <div className="flex justify-center min-h-screen items-center w-full mt-20 md:mt-0">
           <div className="flex flex-col w-full md:flex-row">
             <div className="flex flex-col justify-center items-center">
-              <div className="flex flex-col items-center text-gray-700 text-5xl font-bold md:text-7xl md:text-left md:items-start md:ml-20 text-center">
-                Play, Learn, Enjoy & Repeat With
-                <span className="mt-9 w-7/10 md:w-4/10"><img src={logo} alt="babble-logo" /></span>
+              <div className="flex flex-col items-center font-fredericka font-bold text-pink-400 leading-15 text-5xl md:text-7xl md:text-left md:items-start md:ml-20 text-center md:leading-20">
+                Play, Learn, Enjoy & Repeat With Babble
+                {/* <span className="mt-9 w-7/10 md:w-4/10"><img src={logo} alt="babble-logo" /></span> */}
               </div>
-              <h2 className="text-center mt-9 font-bold text-2xl text-pink-400 md:text-2xl md:text-left md:ml-20">
+              <h2 className="text-center mt-9 text-2xl text-pink-400 md:text-2xl md:text-left md:ml-20">
                 {"Helping Children Communicate & Learn Through Playful Interactions"
                   .split("")
                   .map((child, idx) => (

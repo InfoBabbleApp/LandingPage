@@ -9,3 +9,29 @@
     --color-5: 90 100% 63%;
   }
   
+@font-face {
+  font-family: Poppins;
+  src: url("../src/assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Sigmar;
+  src: url("../src/assets/fonts/Sigmar-Regular.ttf");
+}
+
+@font-face {
+  font-family: Baloo2;
+  src: url("../src/assets/fonts/Baloo2-Bold.ttf");
+}
+
+@font-face {
+  font-family: Fredericka;
+  src: url("../src/assets/fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@theme {
+  --font-poppins: Poppins, "sans-serif";
+  --font-sigmar: Sigmar, "sans-serif";
+  --font-baloo: Baloo2, "sans-serif";
+  --font-fredericka: Fredericka, "sans-serif";
+}
