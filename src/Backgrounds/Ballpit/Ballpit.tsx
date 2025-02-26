@@ -504,12 +504,12 @@ class Y extends MeshPhysicalMaterial {
         void main() {
         `,
       );
-      const lightsChunk = ShaderChunk.lights_fragment_begin.replaceAll(
-        "RE_Direct( directLight, geometryPosition, geometryNormal, geometryViewDir, geometryClearcoatNormal, material, reflectedLight );",
+      const lightsChunk = ShaderChunk.lights_fragment_begin.replace(
+        /RE_Direct\( directLight, geometryPosition, geometryNormal, geometryViewDir, geometryClearcoatNormal, material, reflectedLight \);/g,
         `
           RE_Direct( directLight, geometryPosition, geometryNormal, geometryViewDir, geometryClearcoatNormal, material, reflectedLight );
           RE_Direct_Scattering(directLight, vUv, geometryPosition, geometryNormal, geometryViewDir, geometryClearcoatNormal, reflectedLight);
-        `,
+        `
       );
       shader.fragmentShader = shader.fragmentShader.replace(
         "#include <lights_fragment_begin>",
@@ -672,18 +672,6 @@ function isInside(rect: DOMRect) {
     pointerPosition.y <= rect.top + rect.height
   );
 }
-
-const { randFloat, randFloatSpread } = MathUtils;
-const F = new Vector3();
-const I = new Vector3();
-const O = new Vector3();
-const V = new Vector3();
-const B = new Vector3();
-const N = new Vector3();
-const _ = new Vector3();
-const j = new Vector3();
-const H = new Vector3();
-const T = new Vector3();
 
 /* =========================================================
    Class Z – Instanced Mesh for Spheres

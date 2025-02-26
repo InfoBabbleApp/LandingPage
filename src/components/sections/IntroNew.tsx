@@ -5,9 +5,6 @@ import { motion } from "framer-motion";
 import { WavyBackground } from "../ui/wavy-background";
 import logo from "../../assets/logo.png";
 import Ballpit from "@/Backgrounds/Ballpit/Ballpit";
-import { useEffect, useState } from "react";
-import SplitText from "@/TextAnimations/SplitText/SplitText";
-import BlurText from "@/TextAnimations/BlurText/BlurText";
 import koala from "../../assets/Koala.png";
 
 function Intro() {
@@ -23,7 +20,7 @@ function Intro() {
   };
 
   return (
-    <WavyBackground className="min-h-screen mb-30 md:mb-0">
+    <WavyBackground className="min-h-screen pb-30 md:mb-0">
       <div
         style={{
           position: "absolute",
@@ -83,7 +80,7 @@ function Intro() {
                 </button>
               </div>
             </div>
-            <div className="flex justify-center items-center w-full mt-10 mb-10 md:-mt-5 z-10">
+            <div className="flex justify-center items-center w-full mt-10 pb-10 md:-mt-5 z-10">
               <img className="w-6/10" src={koala} alt="koala" />
             </div>
           </div>

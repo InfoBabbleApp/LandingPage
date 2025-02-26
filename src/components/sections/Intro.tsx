@@ -68,15 +68,15 @@ function Intro() {
           width: "100%",
         }}
       >
-        <Ballpit
-          count={ballCount}
-          gravity={0.7}
-          friction={0.9}
-          wallBounce={0.95}
-          followCursor={false}
-          maxSize={0.8}
-          colors={["#a032a8", "#ffbfea", "#ff1fb5"]}
-        />
+      <Ballpit
+        count={ballCount}
+        gravity={0.7}
+        friction={0.9}
+        wallBounce={0.95}
+        followCursor={false}
+        maxSize={0.8}
+        colors={["#a032a8", "#ffbfea", "#ff1fb5"]}
+      />
       </div>
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
